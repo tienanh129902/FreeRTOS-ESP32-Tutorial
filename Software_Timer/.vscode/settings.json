@@ -1,0 +1,8 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "files.associations": {
+    "timers.h": "c",
+    "freertos.h": "c",
+    "freertosconfig.h": "c"
+  }
+}
