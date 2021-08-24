@@ -4,4 +4,4 @@
     + git clone https://github.com/tienanh129902/FreeRTOS-ESP32-Tutorial.git
     + go to sdk: ./install.sh
     + . ./export.sh
-    + go to esp32 sensor project: idf.py flash monitor
+    + go to your project: idf.py flash monitor
