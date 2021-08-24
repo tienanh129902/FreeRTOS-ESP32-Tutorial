@@ -12,7 +12,7 @@
 //  declare a event grounp handler variable
 EventGroupHandle_t xEventGroup;
 
-// A constant to define 500ms delay
+// A constant to define 1s delay
 const TickType_t xMyDelay = pdMS_TO_TICKS(1000);
 
 // defintion of input and output tasks

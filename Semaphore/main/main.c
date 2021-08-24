@@ -16,7 +16,6 @@ TaskHandle_t ISR = NULL;
 #define CONFIG_BUTTON_PIN 0
 void IRAM_ATTR button_isr_handler(void *arg)
 {
-
     xSemaphoreGiveFromISR(xSemaphore, NULL);
 }
 
