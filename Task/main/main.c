@@ -29,7 +29,7 @@ void task2(void *param)
 
 void app_main(void)
 {
-    xTaskCreate(task1, "task1", 1024, NULL, 10, &handle1);
+    xTaskCreate(task1, "task1", 1024, NULL, 7, &handle1);
     xTaskCreate(task2, "task2", 1024, NULL, 7, &handle2);
-    vTaskStartScheduler();
+    // vTaskStartScheduler();
 }
